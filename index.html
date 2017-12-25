@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Streaming</title>
+</head>
+
+<body>
+<video controls src="http://{{=it.host}}/live/amba.m3u8" type="application/x-mpegURL"></video>
+<form action="http://{{=it.host}}/bacpac/PW">
+  <input type="Submit" value="Switch GoPro Off" />
+  <input type="hidden" name="t" value="{{=it.gopropwd}}">
+  <input type="hidden" name="p" value="&#37;00">
+</form>
+<form action="http://{{=it.host}}/bacpac/PW">
+  <input type="hidden" name="t" value="{{=it.gopropwd}}">
+  <input type="hidden" name="p" value="&#37;01">
+  <input type="Submit" value="Switch GoPro On" />
+</form>
+</body>
+</html>

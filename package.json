@@ -1,0 +1,16 @@
+{
+  "name": "gopro_tessel",
+  "version": "1.0.0",
+  "description": "Tessel exposes a website on your local Network, allowing to control the GoPro.",
+  "main": "index.js",
+  "author": "Olivier Pichon",
+  "license": "MIT",
+  "dependencies": {
+    "dot": "^1.1.2",
+    "superagent": "^3.8.2"
+  },
+  "keywords": [
+    "Tessel",
+    "GoPro"
+  ]
+}
